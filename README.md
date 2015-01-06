@@ -15,3 +15,6 @@ Host <something descriptive>
 cat ~/.git/config
 [remote "origin"]
         url = git@<same descriptive name as Host>:<user or owner of repo>/<repo name>.git
+
+vim colors:
+https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
