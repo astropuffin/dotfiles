@@ -348,7 +348,7 @@ else
     let s:red         = "DarkRed"       " 1
     let s:magenta     = "DarkMagenta"   " 5
     let s:violet      = "LightMagenta"  " 5*
-    let s:blue        = "DarkBlue"      " 4
+    let s:blue        = "Blue"      " 4
     let s:cyan        = "DarkCyan"      " 6
     let s:green       = "DarkGreen"     " 2
 
