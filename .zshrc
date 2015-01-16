@@ -6,6 +6,7 @@ compinit
 # End of lines added by compinstall
 PS1=$'%* %h %? %n@%M: %d > '
 
+alias ls='ls --color'
 alias ll='ls -l'
 alias ltr='ls -ltr'
 alias diffys='diff -y --suppress-common-lines'
