@@ -5,6 +5,12 @@ tmux
 vim
 zsh
 
+How to get these settings:
+wget "https://raw.githubusercontent.com/ulimit/zsh-git/master/zsh-deploy.sh"
+chmod +x zsh-deploy.sh
+./zsh-deploy.sh
+and you're done!
+
 setting up multiple keys:
 cat ~/.ssh/config
 Host <something descriptive>
