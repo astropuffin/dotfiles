@@ -7,3 +7,4 @@ do
 done
 
 rm -rf zsh-git
+rm $0
