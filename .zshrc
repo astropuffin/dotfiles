@@ -4,7 +4,7 @@ zstyle :compinstall filename '/home/joe.schneider/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-PS1=$'%* %h %? %n@%M: %d > '
+PS1=$'\e[0;32m%* %h %? %n@%M: %d \e[0m> '
 
 alias ls='ls --color'
 alias ll='ls -l'
