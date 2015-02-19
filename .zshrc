@@ -12,3 +12,4 @@ alias ltr='ls -ltr'
 alias diffys='diff -y --suppress-common-lines'
 alias stmux='echo "ssh-aent zsh;ssh-add;tmux'
 
+if [ "$TMUX" = "" ]; then tmux; fi
