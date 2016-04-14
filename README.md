@@ -1,19 +1,16 @@
 general preference settings
 
 assumes the following are installed:
-
-tmux
-
-vim
-
-zsh
+- tmux
+- vim
+- zsh
 
 
 How to get these settings:
 
 `wget "https://raw.githubusercontent.com/astropuffin/dotfiles/master/install.sh" | bash`
 
-and you're done!
+and you're done! (be sure to actually read what the script does before blindly piping to shell from the internet!)
 
 setting up multiple keys:
 ```
