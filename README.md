@@ -1,17 +1,22 @@
 general preference settings
 
-assumes:
+assumes the following are installed:
+
 tmux
+
 vim
+
 zsh
 
+
 How to get these settings:
-wget "https://raw.githubusercontent.com/ulimit/zsh-git/master/zsh-deploy.sh";
-sh zsh-deploy.sh
+
+`wget "https://raw.githubusercontent.com/astropuffin/dotfiles/master/install.sh" | bash`
 
 and you're done!
 
 setting up multiple keys:
+```
 cat ~/.ssh/config
 Host <something descriptive>
   HostName github.com
@@ -21,6 +26,8 @@ Host <something descriptive>
 cat ~/.git/config
 [remote "origin"]
         url = git@<same descriptive name as Host>:<user or owner of repo>/<repo name>.git
+```
 
 vim colors:
+
 https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
