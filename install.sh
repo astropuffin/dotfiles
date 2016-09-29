@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 function place_files() {
     git clone "https://github.com/astropuffin/dotfiles.git"

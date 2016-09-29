@@ -10,7 +10,7 @@ will install the following:
 
 How to get these settings:
 
-`wget "https://raw.githubusercontent.com/astropuffin/dotfiles/master/install.sh" | bash`
+`wget "https://raw.githubusercontent.com/astropuffin/dotfiles/master/install.sh" -qO- | bash`
 
 and you're done! (be sure to actually read what the script does before blindly piping to shell from the internet!)
 
