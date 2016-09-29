@@ -1,9 +1,11 @@
 general preference settings
 
-assumes the following are installed:
+will install the following:
+- git
 - tmux
 - vim
 - zsh
+- keychain
 
 
 How to get these settings:

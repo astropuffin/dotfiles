@@ -10,6 +10,6 @@ alias ls='ls --color'
 alias ll='ls -l'
 alias ltr='ls -ltr'
 alias diffys='diff -y --suppress-common-lines'
-alias stmux='echo "ssh-aent zsh;ssh-add;tmux'
+alias stmux='echo "ssh-agent zsh;ssh-add;tmux"'
 
 if [ "$TMUX" = "" ]; then tmux; fi
