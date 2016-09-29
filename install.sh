@@ -15,7 +15,7 @@ function setup_git() {
 
 function cleanup(){
     rm -rf dotfiles
-    rm $0
+    rm install.sh
 }
 
 #install packages
