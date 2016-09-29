@@ -1,4 +1,4 @@
 # Launch Zsh
 if [ -t 1 ]; then
-    exec zsh
+    exec ssh-agent zsh
 fi
