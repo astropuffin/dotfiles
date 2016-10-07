@@ -2,7 +2,7 @@
 
 function place_files() {
     git clone "https://github.com/astropuffin/dotfiles.git"
-    for file in .tmux.conf .vimrc .zcompdump .bashrc .zshrc .vim
+    for file in .tmux.conf .vimrc .zcompdump .bashrc .zshrc .vim .gitconfig
     do
       cp -r "dotfiles/$file" ~
     done

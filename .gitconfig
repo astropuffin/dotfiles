@@ -1,0 +1,6 @@
+[push]
+	default = simple
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[core]
+	editor = vim
