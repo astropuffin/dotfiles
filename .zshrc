@@ -1,5 +1,8 @@
 PS1=$'\e[0;32m%* %h %? %n@%M: %d \e[0m> '
 
+unsetopt beep
+set -o vi
+
 alias ls='ls --color'
 alias ll='ls -l'
 alias ltr='ls -ltr'
