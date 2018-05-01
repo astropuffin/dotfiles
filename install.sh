@@ -11,6 +11,17 @@ function place_files() {
 function setup_git() {
     git config --global push.default simple
     git config --global remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+    git config --global user.name=astropuffin
+    git config --global user.email=astropuffin@users.noreply.github.com
+}
+
+function vim-pathogen(){
+	mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+		curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+	
+	pushd ~/.vim/bundle
+		git clone https://github.com/hashivim/vim-terraform.git
+	popd
 }
 
 function cleanup(){
@@ -30,5 +41,6 @@ fi
 
 place_files
 setup_git
+vim-pathogen
 cleanup
 source ~/.bashrc
