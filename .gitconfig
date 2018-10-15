@@ -1,6 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = astropuffin
+	email = astropuffin@users.noreply.github.com
 [push]
 	default = simple
-[remote "origin"]
-	fetch = +refs/heads/*:refs/remotes/origin/*
-[core]
-	editor = vim
+#[remote "origin"]
+#	fetch = +refs/heads/*:refs/remotes/origin/*
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"

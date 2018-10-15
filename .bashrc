@@ -1,4 +1,3 @@
-# Launch Zsh
-if [ -t 1 ]; then
-    exec ssh-agent zsh
-fi
+export GOROOT="/usr/local/go"
+export GOPATH="$HOME/work"
+PATH="$PATH:$GOPATH/bin:$GOROOT/bin"

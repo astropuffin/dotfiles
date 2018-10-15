@@ -3,9 +3,8 @@ syntax on
 set background=dark
 colorscheme solarized
 
-set noerrorbells visualbell t_vb=
-
 filetype plugin indent on
+set expandtab
 set tabstop=4
 set shiftwidth=4
 
