@@ -10,7 +10,6 @@ function place_files() {
 
 function setup_git() {
     git config --global push.default simple
-    git config --global remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
     git config --global user.name=astropuffin
     git config --global user.email=astropuffin@users.noreply.github.com
 }
